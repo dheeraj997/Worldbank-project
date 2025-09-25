@@ -10,3 +10,5 @@ langchain-groq
 python-dotenv
 boto3
 temp
+fastapi
+uvicorn[standard]
