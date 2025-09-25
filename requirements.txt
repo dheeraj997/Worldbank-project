@@ -10,3 +10,4 @@ langchain-groq
 python-dotenv
 boto3
 temp
+argparse
