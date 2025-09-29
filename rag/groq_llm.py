@@ -13,7 +13,7 @@ class GroqLLM:
     def generate_response(self, query, context):
         prompt = PromptTemplate(
             input_variables=["context", "question"],
-            template=f"""Use the following context to answer the question with a good description
+            template=f"""Use the following context to answer the question concisely.
         Context:
         {context}
         Question: {query}
