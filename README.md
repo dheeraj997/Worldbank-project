@@ -104,4 +104,4 @@ final product
 
 ![alt text](image.png)
 
-![Logo](Untitled Diagram.drawio.svg)
+![Logo](flowchart.svg)
