@@ -36,20 +36,24 @@ A **RAG (Retrieval-Augmented Generation) system** that allows semantic querying 
 
 Create and manage a Python virtual environment:
 
-```bash
 # Install uv (virtual environment manager)
+
 pip install uv
 
 # Initialize virtual environment
+
 uv init
 
 # Activate virtual environment
+
 .venv\Scripts\activate
 
 # Install project dependencies
+
 uv add -r .\requirements.txt
 
---------------------------------------------------------------------------------------------------
+---
+
 git commands
 
 --git init
@@ -60,35 +64,44 @@ git commands
 
 --git commit -m"message"
 
---git push origin main
---------------------------------------------------------------------------------------------------
+## --git push origin main
+
 aws commands
 
 # Configure AWS with IAM credentials
+
 aws configure
 
 # List all S3 buckets
+
 aws s3 ls
 
----------------------------------------------------------------------------------------------------
+---
+
 fast api server commands
 
 # to run the sever
---uvicorn main:app --reload
----------------------------------------------------------------------------------------------------
+
+## --uvicorn main:app --reload
+
 react commands
 
 # Clear npx cache if needed
+
 npx clear-npx-cache
 
 # Create a new React app
+
 npx create-react-app@latest frontend
 
 # Start React development server
+
 npm start
 
-----------------------------------------------------------------------------------------------------
+---
+
 final product
 
-image.png
-```
+![alt text](image.png)
+
+![Logo](Untitled Diagram.drawio.svg)
