@@ -28,7 +28,7 @@ def ask_question(req: QueryRequest):
     answer = query_pipeline.ask(req.query)
     return {"query": req.query, "answer": answer}
 
-# ✅ Only runs when you do: python main.py
+# ✅ Only runs when you do: python main.py to run it manually
 if __name__ == "__main__":
     q = "Why are tailored hydromet services and robust early warning systems critical for Bangladesh?"
     print("Q:", q)
